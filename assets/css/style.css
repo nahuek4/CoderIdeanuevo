@@ -53,6 +53,27 @@
   text-align: center;
   margin-top: 1em;
 }
+.main .infoIlust {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.main .infoIlust .infoIlustBtn {
+  background-color: #F7989E;
+  color: white;
+  transition: all 0.2s;
+  overflow: hidden;
+  padding: 0.2em 1.3em;
+  margin-bottom: 0.5em;
+  border: none;
+}
+.main .infoIlust .infoIlustBtn:hover {
+  transform: translateY(-5px);
+}
+.main .infoIlust .infoIlustBtn a {
+  text-decoration: none;
+  color: white;
+}
 .main .cuadros {
   display: flex;
   text-align: center;
