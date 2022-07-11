@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Un diario ilustrado</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+</head>
+<body class="" style="padding: 0; margin: 0;">
+  <header class="header">
+  <div class="tituloHeader">
+    <h1>Ilustraciones digitales</h1>
+    <p>Diseño grafico</p>
+  </div>
+</header>
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ilustraciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./pages/ilustracionesout.html">Ilustraciones outline</a></li>
+              <li><a class="dropdown-item" href="./pages/ilustracionesdet.html">Ilustraciones detalladas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/cuadros.html">Cuadros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/info.html">Informacion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="main row">
+    <div class="titulo d-flex justify-content-center">
+      <h2>Algunas de nuestras ilustraciones</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+    <div id="carouselExampleControls" class="carousel slide col-md-6 col-xl-6 col-xxl-4 row" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/saritanahue.jpeg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/Santorini.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/padrastro.jpeg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="infoIlust">
+    <h2></h2>
+  </div>
+  <div class="cuadros col-sm-12 col-md-6 col-xl-6 col-xxl-6 mt-4">
+    <div class="h2">
+      También podes encuadrar tu ilustracion
+    </div>
+    <div class="imgCuadros">
+      <img src="./assets/img/index.jpeg" alt="" class="imgindex">
+    </div>
+    <div class="cards">
+      <div class="card col-sm-6 col-md-6 col-xl-4 col-xxl-4 mt-2">
+        <div class="card-title col-md-6 fs-4">
+          <h4>Marco Box</h4>
+          <p>El modelo Marco Box tiene una profundidad mayor por lo que nos permite apoyar simplemente el cuadro sobre una superficie plana como decoracion</p>
+          <button class="comprarBtn"><a href="www.whatsapp.com" class="aBtn">Ver mas</a></button>
+        </div>
+      </div>
+      <div class="card col-sm-6 col-md-6 col-xl-4 col-xxl-4 mt-2">
+        <div class="card-title col-md-6 fs-4">
+          <h4>Marco Plano</h4>
+          <p>El modelo Marco Plano es ideal para colgar y asi decorar nuestras paredes de la casa</p>
+          <button class="comprarBtn"><a href="www.whatsapp.com" class="aBtn">Ver mas</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-reset" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Ilustraciones
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item" href="./pages/ilustracionesout.html">Ilustraciones outline</a></li>
+        <li><a class="dropdown-item" href="./pages/ilustracionesdet.html">Ilustraciones detalladas</a></li>
+      </ul>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Cuadros</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Informacion</a></li>
+  </ul>
+  <p class="text-center text-muted">© 2022 Un diario ilustrado</p>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

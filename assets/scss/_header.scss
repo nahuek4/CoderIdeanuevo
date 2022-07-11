@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    .tituloHeader{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: #D9D7C2;
+        color: white;
+        padding: 2em;
+        transition: all 1s;
+        opacity: 1;
+        &:hover{
+            animation: identifier .5s;
+        }
+        h1{
+            font-size: 3.5em;
+            text-shadow: 2px 2px 2px #949384;
+        }
+        p{
+            font-size: 2em;
+            text-shadow: 2px 2px 2px #949384;
+        }
+    }
+}

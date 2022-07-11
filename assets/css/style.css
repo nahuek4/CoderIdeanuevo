@@ -1,0 +1,95 @@
+@keyframes identifier {
+  10% {
+    margin-left: 2px;
+  }
+  30% {
+    margin-left: 0px;
+    margin-right: 4px;
+  }
+  50% {
+    margin-right: 0px;
+    margin-left: 4px;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar img {
+  width: 7.5em;
+  margin-left: 5px;
+}
+
+.header {
+  width: 100%;
+}
+.header .tituloHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #D9D7C2;
+  color: white;
+  padding: 2em;
+  transition: all 1s;
+  opacity: 1;
+}
+.header .tituloHeader:hover {
+  animation: identifier 0.5s;
+}
+.header .tituloHeader h1 {
+  font-size: 3.5em;
+  text-shadow: 2px 2px 2px #949384;
+}
+.header .tituloHeader p {
+  font-size: 2em;
+  text-shadow: 2px 2px 2px #949384;
+}
+
+.main h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+  margin-top: 1em;
+}
+.main .cuadros {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  transition: all 1s;
+}
+.main .cuadros .imgCuadros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.main .cuadros .imgCuadros .imgindex {
+  width: 100%;
+}
+.main .cuadros .cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.main .cuadros .cards .card-title {
+  margin-top: 0.5em;
+}
+.main .cuadros .cards .comprarBtn {
+  background-color: #F7989E;
+  color: white;
+  transition: all 0.2s;
+  overflow: hidden;
+  padding: 0.2em 1.3em;
+  margin-bottom: 0.5em;
+  border: none;
+}
+.main .cuadros .cards .comprarBtn:hover {
+  transform: translateY(-5px);
+}
+.main .cuadros .cards .comprarBtn a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
