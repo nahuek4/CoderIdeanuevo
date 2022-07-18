@@ -22,10 +22,10 @@
   margin-left: 5px;
 }
 
-.header {
+.header, .headerheaderIlusDet {
   width: 100%;
 }
-.header .tituloHeader {
+.header .tituloHeader, .headerheaderIlusDet .tituloHeader {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -35,30 +35,29 @@
   transition: all 1s;
   opacity: 1;
 }
-.header .tituloHeader:hover {
+.header .tituloHeader:hover, .headerheaderIlusDet .tituloHeader:hover {
   animation: identifier 0.5s;
 }
-.header .tituloHeader h1 {
+.header .tituloHeader h1, .headerheaderIlusDet .tituloHeader h1 {
   font-size: 3.5em;
   text-shadow: 2px 2px 2px #949384;
 }
-.header .tituloHeader p {
+.header .tituloHeader p, .headerheaderIlusDet .tituloHeader p {
   font-size: 2em;
   text-shadow: 2px 2px 2px #949384;
 }
 
-.main h2 {
+main h2 {
   font-size: 3em;
   margin-bottom: 1em;
   text-align: center;
   margin-top: 1em;
 }
-.main .infoIlust {
+main .infoIlust {
   display: flex;
   justify-content: center;
-  padding: 2em;
 }
-.main .infoIlust .infoIlustBtn {
+main .infoIlust .infoIlustBtn {
   background-color: #F7989E;
   color: white;
   transition: all 0.2s;
@@ -67,38 +66,40 @@
   margin-bottom: 0.5em;
   border: none;
 }
-.main .infoIlust .infoIlustBtn:hover {
+main .infoIlust .infoIlustBtn:hover {
   transform: translateY(-5px);
 }
-.main .infoIlust .infoIlustBtn a {
+main .infoIlust .infoIlustBtn a {
   text-decoration: none;
   color: white;
 }
-.main .cuadros {
+main .cuadros {
   display: flex;
   text-align: center;
   flex-direction: column;
   transition: all 1s;
+  box-shadow: -1px -1px 2px 1px rgba(228, 226, 226, 0.808);
+  background-color: rgba(240, 235, 235, 0.288);
 }
-.main .cuadros .imgCuadros {
+main .cuadros .imgCuadros {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 5px;
 }
-.main .cuadros .imgCuadros .imgindex {
+main .cuadros .imgCuadros .imgindex {
   width: 100%;
 }
-.main .cuadros .cards {
+main .cuadros .cards {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 2em;
 }
-.main .cuadros .cards .card-title {
+main .cuadros .cards .card-title {
   margin-top: 0.5em;
 }
-.main .cuadros .cards .comprarBtn {
+main .cuadros .cards .comprarBtn {
   background-color: #F7989E;
   color: white;
   transition: all 0.2s;
@@ -107,10 +108,14 @@
   margin-bottom: 0.5em;
   border: none;
 }
-.main .cuadros .cards .comprarBtn:hover {
+main .cuadros .cards .comprarBtn:hover {
   transform: translateY(-5px);
 }
-.main .cuadros .cards .comprarBtn a {
+main .cuadros .cards .comprarBtn a {
   text-decoration: none;
   color: white;
+}
+
+footer {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

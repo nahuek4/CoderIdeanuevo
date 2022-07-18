@@ -1,4 +1,4 @@
-.main{
+main{
     h2{
         font-size: 3em;
         margin-bottom: 1em;
@@ -8,9 +8,21 @@
     .infoIlust{
         display: flex;
         justify-content: center;
-        padding: 2em;
         .infoIlustBtn{
-            @extend comprarBtn;
+            background-color: #F7989E;
+            color: white;
+            transition: all .2s;
+            overflow: hidden;
+            padding: .2em 1.3em;
+            margin-bottom: .5em;
+            border: none;
+            &:hover{
+                transform: translateY(-5px);
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
     }
     .cuadros{
@@ -18,6 +30,8 @@
         text-align: center;
         flex-direction: column;
         transition: all 1s;
+        box-shadow: -1px -1px 2px 1px rgba(228, 226, 226, 0.808);
+        background-color: rgba(240, 235, 235, 0.288);
         .imgCuadros{
             display: flex;
             justify-content: center;
